@@ -1,0 +1,82 @@
+body {
+  font-family:'Times New Roman', Times, serif;
+}
+
+h1 {
+  color: #f2f4f3;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#board {
+  width: 60%;
+  padding: 50px auto;
+  border-radius: 10px;
+  display: block;
+}
+
+#row {
+  padding-left: 65px;
+  align-content: center;
+}
+
+#reset {
+  background-color: #0a0900;
+  border: 0;
+  color: #07e007;
+  text-transform: uppercase;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 15px;
+  text-align: center;
+
+  
+}
+
+.cell {
+  height: 150px;
+  width: 100px;
+  margin: 10px;
+  font-size: 55px;
+  color: #f2f4f2;
+  text-align: center;
+  background: linear-gradient(#0f0e07, #635b04, #1a99d4);
+  border-radius: 5px;
+  padding-top: 30px;
+}
+
+.cell:hover {
+  cursor: pointer;
+}
+
+#reset:hover {
+  cursor: pointer;
+  background-color: #a9927d;
+}
+
+#player {
+  margin-top: 30px;
+  color: #ee4d0d;
+  font-size: 26px;
+  text-align: center;
+}
+
+#winner {
+  color: rgb(12, 224, 83);
+  text-align: center;
+  border-radius: 5px;
+  padding: 30px 5px;
+  margin: 10px auto;
+}
+
+.hide {
+  display: none;
+}
+
+.o {
+  color: #e71163;
+}
+
+.x {
+  color: #f2f4f3;
+}
